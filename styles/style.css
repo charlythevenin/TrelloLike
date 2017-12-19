@@ -122,7 +122,6 @@ body, html {
     font-size: 26px;
     border: 2px solid #ffffff ;
     box-sizing: border-box;
-    text-align: center;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -136,6 +135,29 @@ a {
     background-color: #ffffff ;
     color: #d21d10 ;
 }
+
+.boutontext {
+    height: 30px;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #ffffff ;
+    box-sizing: border-box;
+    font-family: Verdana, 'DejaVu Sans';
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boutontext:hover {
+    background-color: #ffffff ;
+    color: #d21d10 ;
+}
+
 
 .container {
     padding: 50px 150px;
@@ -152,7 +174,7 @@ h1 {
     margin: 15px 0;
 }
 
-.boutontext {
+.boutonpoussoir {
     width: 200px;
     height: 30px;
     padding-top: 5px;
@@ -163,13 +185,12 @@ h1 {
     font-size: 16px;
     background-color: #d21d10 ;
     border-bottom: 4px solid #b2140b ;
-    text-align: center;
     color: white;
     transition-property: border margin;
     transition-duration: 0.2s;
 }
 
-.boutontext:hover {
+.boutonpoussoir:hover {
     margin-top: 3px;
     border-bottom: 1px solid #b2140b ;
 }

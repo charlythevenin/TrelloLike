@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Appli Web</title>
-    <link rel="stylesheet" type="text/css" href="styles/Inscription.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
     <header>
