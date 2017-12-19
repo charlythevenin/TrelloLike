@@ -5,11 +5,16 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">Se connecter</a></li>
-        </ul>
-    </header>
+<div class="banner">
+        <span class="titrelogo">
+            <a href="#">
+                TrelloLike
+            </a>
+        </span>
+        <span class="menu"><a href="#">Se connecter</a>
+        </span>
+    </div>
+    
     <section>
         <article>
             <div class="title">S'inscrire à Trello</div><br>
