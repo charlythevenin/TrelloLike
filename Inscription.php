@@ -5,15 +5,20 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">Se connecter</a></li>
-        </ul>
-    </header>
+<div class="banner">
+        <span class="titrelogo">
+            <a href="#">
+                TrelloLike
+            </a>
+        </span>
+        <span class="menu"><a href="#">Se connecter</a>
+        </span>
+    </div>
+    
     <section>
         <article>
             <div class="title">S'inscrire à Trello</div><br>
-            <div class="container">
+            <div class="container2">
             <form action="#">
                 <label>Nom</label><br>
                 <div class="form"><input type="text" placeholder="ex: nom"></div><br><br>
@@ -26,7 +31,7 @@
             </div>
         </article>
     </section>
-    <div class="bloc"><a href="#">Vous avez déjà un compte ? Connectez-vous.</a></div>
+    <div class="bloc"><a href="page_accueil.php">Vous avez déjà un compte ? Connectez-vous.</a></div>
     
 </body>
 </html>

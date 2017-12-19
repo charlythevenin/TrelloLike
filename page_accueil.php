@@ -3,19 +3,23 @@
 <html>
 <head>
 	<title>Appli Web</title>
-	<link rel="stylesheet" type="text/css" href="page_accueil.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<header>
-		<ul>
-			<li>TrelloLike</li>
-		</ul>
-	</header>
+<div class="banner">
+        <span class="titrelogo">
+            <a href="#">
+                TrelloLike
+            </a>
+        </span>
+        <span class="menu">
+        </span>
+    </div>
 	<section>
 		<article>
 			<div class="title">Se connecter à Trello</div><br>
-			<div class="container">
-			<form action="login.php">
+			<div class="container2">
+			<form action="tableaux.html">
 				<label>Email</label><br>
 				<div class="form"><input type="text" placeholder="ex: nom@gmail.com"></div><br><br>
 
@@ -27,7 +31,7 @@
 			</div>
 		</article>
 	</section>
-	<div class="bloc"><a href="#">Vous n'êtes pas inscrits ? S'inscrire</a></div>
+	<div class="bloc"><a href="Inscription.php">Vous n'êtes pas inscrits ? S'inscrire</a></div>
 
 </body>
 </html>
