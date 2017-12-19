@@ -1,11 +1,93 @@
+header {
+    width: 100%;
+    height: 50px;       
+}
+ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+li {
+    display: inline;
+    padding: 10px;
+    background-color: #E6E6E6;
+    border-radius: 10%;
+}
+ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: georgia;
+    font-weight: bold;
+    line-height: 30px;
+}
+article {
+    background-color: #F2F2F2;
+    height: 450px;
+    width: 100%;
+}
+.title {
+    font-size: 40px;
+    font-family: georgia;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.container2 {
+    text-align: center;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px #d21d10 solid;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: georgia;
+}
+button {
+    background-color: #d21d10;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.bloc {
+background-color: grey;
+height: 140px;
+text-align: center;
+
+}
+
+.bloc a {
+color: white;
+}
+
+button:hover {
+background-color:red;
+}
+
+li:hover{
+background-color: white;
+}
+
+.bloc a:hover {
+color: lightgrey;
+}
+
 body, html {
-    background: #f6f6f6;
+    background: #f6f6f6 ;
     margin: 0;
     padding: 0;
 }
 
 .banner {
-    background-color: #d21d10;
+    background-color: #d21d10 ;
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -24,7 +106,9 @@ body, html {
 .menu {
     margin-left: auto;
     display: flex;
+    
 }
+
 
 .bouton {
     width: 30px;
@@ -36,7 +120,7 @@ body, html {
     text-align: center;
     font-weight: bold;
     font-size: 26px;
-    border: 2px solid #ffffff;
+    border: 2px solid #ffffff ;
     box-sizing: border-box;
     text-align: center;
     margin-left: 5px;
@@ -49,8 +133,8 @@ a {
 }
 
 .bouton:hover {
-    background-color: #ffffff;
-    color: #d21d10;
+    background-color: #ffffff ;
+    color: #d21d10 ;
 }
 
 .container {
@@ -59,7 +143,7 @@ a {
 
 .partie {
     font-family: Verdana, 'DejaVu Sans';
-    color: #333333;
+    color: #333333 ;
     padding: 15px;
 }
 
@@ -77,8 +161,8 @@ h1 {
     line-height: 30px;
     text-align: center;
     font-size: 16px;
-    background-color: #d21d10;
-    border-bottom: 4px solid #b2140b;
+    background-color: #d21d10 ;
+    border-bottom: 4px solid #b2140b ;
     text-align: center;
     color: white;
     transition-property: border margin;
@@ -87,7 +171,7 @@ h1 {
 
 .boutontext:hover {
     margin-top: 3px;
-    border-bottom: 1px solid #b2140b;
+    border-bottom: 1px solid #b2140b ;
 }
 
 .containertableau {
