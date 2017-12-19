@@ -18,7 +18,7 @@
 	<section>
 		<article>
 			<div class="title">Se connecter à Trello</div><br>
-			<div class="container">
+			<div class="container2">
 			<form action="login.php">
 				<label>Email</label><br>
 				<div class="form"><input type="text" placeholder="ex: nom@gmail.com"></div><br><br>

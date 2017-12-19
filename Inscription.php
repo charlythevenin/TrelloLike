@@ -18,7 +18,7 @@
     <section>
         <article>
             <div class="title">S'inscrire à Trello</div><br>
-            <div class="container">
+            <div class="container2">
             <form action="#">
                 <label>Nom</label><br>
                 <div class="form"><input type="text" placeholder="ex: nom"></div><br><br>
