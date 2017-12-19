@@ -6,11 +6,15 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<header>
-		<ul>
-			<li>TrelloLike</li>
-		</ul>
-	</header>
+<div class="banner">
+        <span class="titrelogo">
+            <a href="#">
+                TrelloLike
+            </a>
+        </span>
+        <span class="menu">
+        </span>
+    </div>
 	<section>
 		<article>
 			<div class="title">Se connecter à Trello</div><br>
