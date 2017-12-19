@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Appli Web</title>
-	<link rel="stylesheet" type="text/css" href="page_accueil.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 	<header>
