@@ -1,3 +1,7 @@
+<?php
+$db = mysql_connect('localhost', 'login', 'password'); 
+mysql_select_db('nomdelabase',$db);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,11 +25,11 @@
             <div class="container2">
             <form action="#">
                 <label>Nom</label><br>
-                <div class="form"><input type="text" placeholder="ex: nom"></div><br><br>
+                <div class="form"><input type="text" placeholder="ex: nom"  name="login"></div><br><br>
                 <label>Email</label><br>
-                <div class="form"><input type="text" placeholder="ex: nom@gmail.com"></div><br><br>
+                <div class="form"><input type="text" placeholder="ex: nom@gmail.com" name="email"></div><br><br>
                 <label>Password</label><br>
-                <div class="form"><input type="Password" placeholder="entrer votre mot de passe"></div><br>
+                <div class="form"><input type="Password" placeholder="entrer votre mot de passe" name="password"></div><br>
                 <button>S'inscrire !</button>
             </form>
             </div>
