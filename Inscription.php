@@ -31,7 +31,7 @@
             </div>
         </article>
     </section>
-    <div class="bloc"><a href="#">Vous avez déjà un compte ? Connectez-vous.</a></div>
+    <div class="bloc"><a href="page_accueil.php">Vous avez déjà un compte ? Connectez-vous.</a></div>
     
 </body>
 </html>
