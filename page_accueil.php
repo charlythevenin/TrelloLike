@@ -26,7 +26,7 @@
 				<label>Password</label><br>
 				<div class="form"><input type="Password" placeholder="entrer votre mot de passe"></div><br>
 
-				<button type="submit">Se connecter</button>
+				<button type="submit"><a href="tableaux.html"></a>Se connecter</button>
 			</form>
 			</div>
 		</article>
