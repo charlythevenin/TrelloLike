@@ -19,14 +19,14 @@
 		<article>
 			<div class="title">Se connecter à Trello</div><br>
 			<div class="container2">
-			<form action="login.php">
+			<form action="tableaux.html">
 				<label>Email</label><br>
 				<div class="form"><input type="text" placeholder="ex: nom@gmail.com"></div><br><br>
 
 				<label>Password</label><br>
 				<div class="form"><input type="Password" placeholder="entrer votre mot de passe"></div><br>
 
-				<button type="submit"><a href="tableaux.html"></a>Se connecter</button>
+				<button type="submit">Se connecter</button>
 			</form>
 			</div>
 		</article>
