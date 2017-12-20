@@ -12,14 +12,6 @@
    die('Erreur :'.$e->getMessage());
   }
 
-
-
-
-
-
-
-
-
 if(ISSET($_POST['submit']))
 {
 
@@ -28,8 +20,6 @@ if(ISSET($_POST['submit']))
 $login =   $_POST['login'];
 $password = $_POST['password'];
 $password = hash("sha256", $password);
-
-
 
 
 $req = $bdd->prepare('INSERT INTO utilisateurs(login, password) VALUES (:login, :password)');
@@ -43,13 +33,10 @@ if(!empty($login) && !empty($password))
 
 
 }else{
-?>
 
 
 <b>Pseudo ou MDP vide !</b>
 
-
-<?php
 }
 
 
@@ -69,9 +56,9 @@ header('Location: tableaux.html');
 
 
 }
-   
    ?>
-?>
+   
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -96,9 +83,9 @@ header('Location: tableaux.html');
             <form action="Inscription.php">
                 <label>Nom</label><br>
                 <div class="form"><input type="text" placeholder="ex: nom"  name="login"></div><br><br>
-                <label>Email</label><br>
+                <label>Mot de passe</label><br>
                 <div class="form"><input type="Password" placeholder="entrer votre mot de passe" name="password"></div><br>
-                <button>S'inscrire !</button>
+                <button type="submit" name="submit">S'inscrire !</button>
             </form>
             </div>
         </article>
