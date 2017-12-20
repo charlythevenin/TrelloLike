@@ -12,6 +12,14 @@
    die('Erreur :'.$e->getMessage());
   }
 
+
+
+
+
+
+
+
+
 if(ISSET($_POST['submit']))
 {
 
@@ -20,6 +28,8 @@ if(ISSET($_POST['submit']))
 $login =   $_POST['login'];
 $password = $_POST['password'];
 $password = hash("sha256", $password);
+
+
 
 
 $req = $bdd->prepare('INSERT INTO utilisateurs(login, password) VALUES (:login, :password)');
@@ -33,10 +43,13 @@ if(!empty($login) && !empty($password))
 
 
 }else{
+?>
 
 
 <b>Pseudo ou MDP vide !</b>
 
+
+<?php
 }
 
 
@@ -56,9 +69,8 @@ header('Location: tableaux.html');
 
 
 }
-   ?>
    
-
+   ?>
 <!DOCTYPE html>
 <html>
 <head>
