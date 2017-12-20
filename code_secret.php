@@ -6,14 +6,11 @@ $bdd = bdd(); ?>
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style_connexion.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
 </head>
 <body>
-<div id="code">
-Code secret : </br>
-064857/745 </br>
 <a href="control_connexion.php?deco=deco"><button>Deconnexion</button></a>
-</div>
+
     
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php 
 function bdd()
 {
-return $db = new PDO('mysql:host=localhost;dbname=bdd', 'user', 'password');;
+return $db = new PDO('mysql:host=localhost;dbname=TrelloLike', 'trello', 'trello');;
 }
 
 
