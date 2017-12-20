@@ -65,7 +65,8 @@ text-align: center;
 }
 
 .bloc a {
-color: white;
+color: black;
+    
 }
 
 button:hover {
@@ -77,7 +78,7 @@ background-color: white;
 }
 
 .bloc a:hover {
-color: lightgrey;
+color: white;
 }
 
 body, html {
@@ -214,4 +215,10 @@ h1 {
 
 .tableau:hover {
     width: 30%;
+}
+
+.code {
+height: 100px;
+width: 50px;
+color: blue;
 }

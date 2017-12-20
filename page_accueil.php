@@ -1,27 +1,6 @@
-<?php
-if (isset($_POST['login']) && isset($_POST['mdp'])) {
-if ((isset($_POST['login']) && !empty($_POST['login'])) && (isset($_POST['mdp']) && !empty($_POST['mdp']))) {
-try {
-$pdo = new PDO('mysql:host=localhost;dbname=TrelloLike','trello','trello');
-    $reponse = $pdo->query("SELECT * FROM `utilisateurs`");
-    $data = $reponse->fetchAll(PDO::FETCH_CLASS, "utilisateurs")[0];
-} catch (PDOException $e) {
-    http_response_code(500);
-    die();
-}
-	if ($data[0] == 1) {
-		session_start();
-		$_SESSION['login'] = $_POST['login'];
-		header('Location: tableaux.html');
-		exit();
-}
-	elseif ($data[0] == 0) {
-		$erreur = 'Compte non reconnu.';
-}
-}
-}
-    
-?>
+<?php session_start(); // démarre la session
+require_once("modele_connexion.php");
+$bdd = bdd(); ?>
 
 <!DOCTYPE html>
 <html>
@@ -43,19 +22,22 @@ $pdo = new PDO('mysql:host=localhost;dbname=TrelloLike','trello','trello');
 		<article>
 			<div class="title">Se connecter à Trello</div><br>
 			<div class="container2">
-			<form action="tableaux.html">
-				<label>Email</label><br>
-				<div class="form"><input type="text" name="login" placeholder="ex: nom@gmail.com"></div><br><br>
+			<form method="post" action="control_connexion.php">
+				<label>Login</label><br>
+				<div class="form"><input class="champ" id="pseudo" type="text" name="pseudo" placeholder="ex: pseudo"></div><br><br>
 
 				<label>Password</label><br>
-				<div class="form"><input type="Password" name="mdp" placeholder="entrer votre mot de passe"></div><br>
+				<div class="form"><input class="champ" id="password" type="password" name="password" placeholder="entrer votre mot de passe"></div><br>
+				
+				<label class="label"  for="souvenir">Se souvenir de moi</label>
+                <input  id="souvenir" type="checkbox" name="souvenir">
 
-				<button type="submit">Se connecter</button>
+				<input id="submit" type="submit" />
 			</form>
 			</div>
 		</article>
 	</section>
-	<div class="bloc"><a href="Inscription.php">Vous n'êtes pas inscrits ? S'inscrire</a></div>
+	<div class="bloc">Vous n'êtes pas inscrits ? S'inscrire</div>
 
 </body>
 </html>
