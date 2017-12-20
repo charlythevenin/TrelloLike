@@ -9,6 +9,15 @@ $pdo = new PDO('mysql:host=localhost;dbname=TrelloLike','trello','trello');
     http_response_code(500);
     die();
 }
+	if ($data[0] == 1) {
+		session_start();
+		$_SESSION['login'] = $_POST['login'];
+		header('Location: tableaux.html');
+		exit();
+}
+	elseif ($data[0] == 0) {
+		$erreur = 'Compte non reconnu.';
+}
 }
 }
     
