@@ -37,7 +37,7 @@ $bdd = bdd(); ?>
 			</div>
 		</article>
 	</section>
-	<div class="bloc">Vous n'êtes pas inscrits ? S'inscrire</div>
+    <div class="bloc"><a href="Inscription.php">Vous n'êtes pas inscrits ? S'inscrire</a></div>
 
 </body>
 </html>

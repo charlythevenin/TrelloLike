@@ -11,7 +11,11 @@
                 TrelloLike
             </a>
         </span>
-        <span class="menu"><a href="#">Se connecter</a>
+        <span class="menu"> <a href="page_accueil.php"> 
+                   <div class="boutontext">              
+                    Se connecter
+                </div>
+            </a>
         </span>
     </div>
     
