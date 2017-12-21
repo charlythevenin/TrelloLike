@@ -48,14 +48,6 @@ label {
     font-weight: bold;
     font-family: georgia;
 }
-button {
-    background-color: #d21d10;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px 10px;
-}
 
 .bloc {
 background-color: grey;

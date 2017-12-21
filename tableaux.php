@@ -1,5 +1,5 @@
 <?php session_start(); // démarre la session
-require_once("modele_connexion.php");
+require_once("function.php");
 $bdd = bdd(); ?>
 
 <!DOCTYPE html>
@@ -32,9 +32,9 @@ $bdd = bdd(); ?>
                     &#128591;
                 </div>
             </a>
-            <a href="#">
+               <a href="control_connexion.php?deco=deco">
                 <div class="boutontext">
-                    Se connecter
+                    Deconnexion
                 </div>
             </a>
         </span>

@@ -26,6 +26,6 @@
 		</article>
 	</section>
     <div class="bloc"><a href="Inscription.php"><b>Vous n'êtes pas inscrits ? S'inscrire</b></a></div>
-
+    
 </body>
 </html>

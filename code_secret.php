@@ -1,5 +1,5 @@
 <?php session_start(); // démarre la session
-require_once("modele_connexion.php");
+require_once("function.php");
 $bdd = bdd(); ?>
 <!DOCTYPE html>
 <html lang="en">

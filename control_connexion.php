@@ -1,6 +1,6 @@
 <?php 
 session_start();
-require_once("modele_connexion.php");
+require_once("function.php");
 $bdd = bdd();
 
 if(isset($_POST['pseudo']) AND isset($_POST['password']))
